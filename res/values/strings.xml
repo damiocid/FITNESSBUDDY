@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">G+ Login</string>
+    <string name="action_settings">Settings</string>
+    
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="title_activity_check_exists">CheckExists</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_create_new_user_profile">CreateNewUserProfile</string>
+    <string name="title_activity_track_daily_user">TrackDailyUser</string>
+    <string name="title_activity_tracking_user_daily_stats">TrackingUserDailyStats</string>
+    <string name="temp">Hello world lalal this!</string>
+    <string name="step_counter">         android.hardware.sensor.stepcounter</string>
+    <string name="step_detector">         android.hardware.sensor.stepdetector</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <string name="reset">RESET</string>
+    <string name="title_activity_reset_the_counter">ResetTheCounter</string>
+    <string name="title_activity_create__user__history">Create_User_History</string>
+    <string name="title_activity_step_chart">StepChart</string>
+
+</resources>

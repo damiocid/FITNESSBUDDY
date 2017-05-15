@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+   tools:context="${packageName}.${activityClass}" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HI! Welcome to Fitness Buddy!\nIt seems like your a first time user\nTell us a little about yourself." />
+
+    
+    <EditText 
+        android:id="@+id/first_name_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="your first name" />
+    
+     <EditText 
+        android:id="@+id/last_name_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="your last name" />
+     
+     <EditText 
+            android:id="@+id/gender_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="are you a male or female (please input m or f)" />
+     
+      <EditText 
+        android:id="@+id/dob_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="your birthdate" />
+      
+       <EditText 
+            android:id="@+id/weight_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="your weight(in pounds)" />
+
+        <EditText 
+	        android:id="@+id/height_field"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text=""
+	        android:hint="your height(in inches)" />
+         
+          
+           <EditText 
+		        android:id="@+id/goal_field"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text=""
+		        android:hint="your goal(number of steps)" />
+           
+           <EditText 
+                android:id="@+id/upload_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="upload time" />
+
+           <Button
+               android:id="@+id/save_user_info"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Save" />
+
+           <Button
+               android:id="@+id/go_back_to_tracking"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Cancel" />
+           
+          
+         
+</LinearLayout>
+</ScrollView>
+

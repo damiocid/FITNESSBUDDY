@@ -1,0 +1,118 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_weight= "1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation = "vertical">
+ TableLayout.setShrinkAllColumns(boolean shrinkAllColumns)
+    <!-- THIS IS THE HEADER ROW -->
+    <TableLayout
+ 		android:id="@+id/header"
+  		android:layout_width="match_parent"
+  		android:layout_marginRight="2dp"
+  		android:layout_marginLeft="2dp"
+  		android:layout_height="wrap_content"
+  		android:background="@android:color/white">
+  
+  		<TableRow>
+			  
+			 <TextView
+			    android:textColor="@android:color/black"
+			    android:layout_margin="1dp"
+    			android:gravity="center_horizontal"
+    			android:layout_weight="1"
+  				android:background="#ffcccccc"
+   				android:text="DATE" />
+  
+			<TextView
+				android:textColor="@android:color/black"
+			    android:gravity="center_horizontal"
+    			android:layout_weight="1"
+			    android:layout_margin="1dp"
+    			android:background="@android:color/white"
+    			android:text="STEPS" />
+   
+   			<TextView
+			    android:textColor="@android:color/black"
+			    android:gravity="center_horizontal"
+    			android:layout_weight="1"
+    			android:layout_margin="1dp"
+    			android:background="@android:color/white"
+				android:text="DIST" />
+   
+   			<TextView
+				android:textColor="@android:color/black"
+  				android:gravity="center_horizontal"
+    			android:layout_weight="1"
+    			android:layout_margin="1dp"
+    			android:background="@android:color/white"
+   				android:text="CALS" />
+   			
+   			<TextView
+			    android:textColor="@android:color/black"
+    			android:gravity="center_horizontal"
+    			android:layout_weight="1"
+				android:layout_margin="1dp"
+    			android:background="@android:color/white"
+    			android:text="TIME" />
+  		
+  		</TableRow> 
+ 	</TableLayout>
+ 
+    
+<ScrollView
+	android:id="@+id/table_scroll"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginRight="2dp"
+  	android:layout_marginLeft="2dp">
+ 
+    <TableLayout
+ 		android:id="@+id/historytable"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:color/white">
+   
+	<!-- THIS IS THE DUMMY HEADER ROW -->    
+   	<TableRow>
+   	    
+    	<TextView
+	    	android:layout_height="0dp"
+     		android:layout_weight="1"
+     		android:layout_marginRight="1dp"
+    		android:layout_marginLeft="1dp"
+    		android:text="DATE" />
+   
+    	<TextView
+   			android:layout_height="0dp"
+    		android:layout_weight="1"
+   			android:layout_marginLeft="1dp"
+			android:layout_marginRight="1dp"
+			android:text="STEPS" />
+    	
+		<TextView
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:layout_marginLeft="1dp"
+			android:layout_marginRight="1dp"
+			android:text="DIST" />
+    
+    	<TextView
+			android:layout_height="0dp"
+			android:layout_weight="1"
+     		android:layout_marginLeft="1dp"
+     		android:layout_marginRight="1dp"
+     		android:text="CALS" />
+    
+    	<TextView
+		    android:layout_height="0dp"
+    		android:layout_weight="1"
+    		android:layout_marginLeft="1dp"
+   			android:layout_marginRight="1dp"
+			android:text="TIME" />
+	</TableRow>
+	</TableLayout>
+</ScrollView>
+</LinearLayout>
